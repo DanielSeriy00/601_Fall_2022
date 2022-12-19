@@ -24,7 +24,7 @@ The data set being used in this study has been sourced from the MIT Election Dat
 
 ```{r}
 #Read in of election Dataset 
-election_orig <- read.csv("~/601 Final Project/posts/_data/1976-2020-president.csv")
+election_orig <- read.csv("_data/1976-2020-president.csv")
 
 #Summarize Dataset election_orig
 summary(election_orig)
